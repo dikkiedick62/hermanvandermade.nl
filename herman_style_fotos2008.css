@@ -1,0 +1,221 @@
+// stylesheet seelenbeeld - site
+	
+
+
+	display:table address, blockquote, body, dd, div, dl, dt, fieldset, form, frame, frameset, h1, h2, h3, h4, h5, h6, iframe, noframes, object, ol, p, ul, applet, center, dir, hr, menu, pre, .numm1, .numm2, .numm3, .numm4, .plaatje, .tussenkop, .InvKopGroot, .InvKopKlein, tekstje
+{  display: block;}
+
+A:link, A:visited, A:active, { color:#ff0000; text-decoration: underline; }
+
+//A.img:link,A.img:active, A.img:visited{color:#c0c0c0;}
+img{border-color:#c0c0c0;  border-width : 2px;  background-position : top;  }
+
+.bodylees{background-color: #151F2B;margin-top:0;font-family:Arial,Verdana; font-size:10pt; 
+	margin-left: 10pt;
+	margin-right: 5pt;
+	color:#ffffff;
+//color:#99cccc;
+	text-indent:30px;
+	letter-spacing:2px;
+	text-align:justify;
+	background-image :  url("images/zand.jpg");
+	
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	} 
+ body{background-color: #003366;margin-top:0;font-family:Arial,Verdana; font-size:10pt; 
+	margin-left: 10pt;
+	margin-right: 5pt;
+	color:#ffffff;
+//color:#99cccc;
+	text-indent:30px;
+	letter-spacing:2px;
+	text-align:justify;
+	}
+
+ p {margin-top:0;
+ font-family:Arial,Verdana; font-size:12pt; 
+	margin-left: 10pt;
+	margin-right: 5pt;
+	//color:#dddddd;
+	color:#000000;
+	font-weight:bold;
+	text-indent:0px;
+	letter-spacing:2px;
+	al
+ 
+ }
+a  { font-family:Arial,Verdana; font-size:12pt; 
+	color:#000000;
+	font-weight: 600;
+	}
+ 
+.InvKopGroot { font-family:Arial,Verdana; font-size: 18pt; 
+	color: #003366; 
+	font-color: #003366; 
+	font-weight: bold;
+	background-color: #339999;
+	margin-left: 0%;
+	margin-right: 0%;
+	text-align: center;
+	padding-left:0pt;
+	padding-right:0pt;
+	}
+
+.invKopKlein { font-family:Arial,Verdana; font-size: 16pt; 
+	color: #192b43; 
+	font-weight:bold;
+	margin-left:0%;
+	margin-right:0%;
+	text-align:center;}
+	
+.copyright {font-family:arial;font-size:6pt; }
+	 
+.tussenkop {font-family:Arial,Verdana; font-size: 10pt; 
+	color:#000000; 
+	font-weight: bold;
+	margin-left: 0%;
+	margin-right: 0%;}
+	
+#springin {text-indent:25pt;}
+
+ul { text-indent:0pt;
+	left-margin:35pt;
+	text-align:left;
+	right-margin:5pt;
+	list-style-position:inner;
+	}
+
+li { text-indent:15pt;
+	left-margin:135pt;
+	text-align:left;
+	right-margin:5pt;
+	list-style-position:inner;
+	font-size:12pt;
+	font-weight: bold;
+	//color:#339999;	
+	color:#E01B20; //#000555;	
+
+	letter-spacing:-1px;}
+
+#NAAM {
+	font-family:sans-serif,Arial,Verdana; font-size: 15pt; 
+	color:#99CCCC; 
+	font-weight: bold;
+	margin-left: 0%;
+	margin-right: 0%;
+	text-align:center;
+	letter-spacing:25px;
+}
+
+span.tekstje {
+	position:absolute;
+	top:170px;
+	background-color:#003366;
+	margin-top:0;
+	font-family:Arial,Verdana; 
+	font-size:14pt; 
+	margin-left: 0pt;
+	margin-right: 0pt;
+	color:#99cccc;	
+	letter-spacing:6px;
+	border-width:2pt;
+	border-style:outset;
+	border-color:grey;
+	padding:2pt;
+	text-indent:10pt;
+	visibility:visible;
+	z-index:+1;
+left:20; top:170; width:370;
+height:90;clip:rect(0 390 125 0);
+visibility:show;z-index:10;}
+
+//span.plaatje 
+#plaatje{
+	position:absolute;
+	top:200px;
+	background-color:#003366;
+	margin-top:0;
+	font-family:Arial,Verdana; 
+	font-size:10pt; 
+	margin-left: 0pt;
+	margin-right: 0pt;
+	color:#99cccc;	
+	letter-spacing:6px;
+	border-width:1pt;
+	border-style:outset;
+	border-color:yellow;
+	padding:0pt;
+	text-indent:0pt;
+	//visibility:hidden;
+visibility:visible;
+
+	}
+	 
+.beeldentekst {
+	position:absolute;
+	top:20px;
+	background-color:#003366;
+	margin-top:0;
+	font-family:Arial,Verdana; 
+	font-size:10pt; 
+	margin-left: 0pt;
+	margin-right: 0pt;
+	color:#99cccc;	
+	letter-spacing:6px;
+	border-width:1pt;
+	border-style:outset;
+	border-color:yellow;
+	padding:0pt;
+	text-indent:0pt;
+	visibility:hidden;
+	} 
+
+.menutekst{
+	position:absolute;
+	top:200px;
+	background-color:#003366;
+	margin-top:0;
+	font-family:Arial,Verdana; 
+	font-size:10pt; 
+	margin-left: 0pt;
+	margin-right: 0pt;
+	color:#99cccc;	
+	letter-spacing:6px;
+	border-width:1pt;
+	border-style:outset;
+	border-color:yellow;
+	padding:0pt;
+	text-indent:0pt;
+	visibility:hidden;
+} 
+
+A.Img {
+	margin-bottom:60px;
+}
+span.tekstje2 {
+	position:absolute;
+	top:170px;
+	background-color:#003366;
+	margin-top:0;
+	font-family:Arial,Verdana; 
+	font-size:10pt; 
+	margin-left: 0pt;
+	margin-right: 0pt;
+	color:#99cccc;	
+	letter-spacing:6px;
+	border-width:5pt;
+	border-style:outset;
+	border-color:grey;
+	padding:2pt;
+	text-indent:10pt;
+	visibility:visible;
+	z-index:+1;
+left:20; top:220; width:390;
+height:80;clip:rect(0 390 80 0);visibility:show;z-index:10;}
+.linkcar {
+	Color: #E6E6FA;
+	font-size:10pt;;
+	Font-Family: Arial, Verdana, Helvetica;
+	Font-Weight: bold;
+}

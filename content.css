@@ -1,0 +1,47 @@
+.bovenZandHeader {
+	font-size: 36px;
+	color: #FFCC00;
+	}
+	
+.bovenZandHaiku {
+	font-size: 24px;
+	/*font-family:"lucida calligraphy",arial,'sans serif'; */
+	color: #FFCC00;
+	}	
+
+.tekststyle{
+   font-family: Geneva, Arial, Helvetica, sans-serif;
+}	
+	
+
+body.menuBody {
+	background-color: #dfdfdf;
+	font-size: 36px;
+	color: #7a8a93;
+}
+	
+.vlak{
+   border:0px solid #aaaaaa;
+   border-style: solid;
+}
+
+.menustyle {
+  	color: #7a8a93;
+}	
+
+.pageBackground {
+   background-image :   url("images/achtergrond2.jpg");
+	
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+}	
+
+
+
+a:link {color: #40484D; text-decoration: none;}
+a:visited {color: #40484D; text-decoration: none}
+a:active {text-decoration: none}
+
+
+
+
