@@ -29,16 +29,25 @@ body.menuBody {
   	color: #7a8a93;
 }	
 
-.pageBackground {
+.beeldenBackground {
    background-image :  url("images/achtergrond2.jpg");
 	
 	background-repeat : no-repeat;
 	background-attachment : fixed;
 }	
 
+.collagesBackground {
+	background-image :  url("images/collages/achtergrond_collages.jpg");
+	 
+	 background-repeat : no-repeat;
+	 background-attachment : fixed;
+ }	
 
 
-a:link {color: #7a8a93; text-decoration: none;}
+
+/* a:link {color: #7a8a93; text-decoration: none;} */
+a:link {color:inherit; text-decoration: inherit;}
+a:visited {color:inherit; text-decoration: inherit}
 a:visited {text-decoration: none}
 a:active {text-decoration: none}
 a:hover { font-weight:bold; color: #7a8a93;}
