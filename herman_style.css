@@ -19,10 +19,20 @@ body.menuBody {
 	font-size: 36px;
 	color: #7a8a93;
 }
+
+.tbl{
+	border: 0px solid #aaaaaa;
+	border-style: solid;
+	margin: 0;
+	padding: 0;
+	align-content: center;
+}
 	
 .vlak{
    border:0px solid #aaaaaa;
    border-style: solid;
+   margin: 0;
+   padding: 0;
 }
 
 .menustyle {
